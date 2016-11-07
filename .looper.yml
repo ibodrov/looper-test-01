@@ -1,0 +1,7 @@
+language: workflow
+
+flows:
+  master:
+  - echo 123
+  - exit 1
+
