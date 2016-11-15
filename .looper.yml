@@ -2,6 +2,9 @@ language: workflow
 
 flows:
   master:
-  - echo 123
-  - sleep 5 && exit 1
+  - echo "Hello from the flow #1!" 
+  - call flow01
+
+  flow01:
+  - echo "Hello from the subflow of the flow #1"
 
