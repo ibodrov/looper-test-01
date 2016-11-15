@@ -7,5 +7,4 @@ flows:
 
   flow01:
   - sleep 3
-  - exit 1
 
