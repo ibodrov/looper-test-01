@@ -2,9 +2,9 @@ language: workflow
 
 flows:
   master:
-  - echo 'Hello from the flow #1!' 
+  - echo 123
   - call flow01
 
   flow01:
-  - echo 'Hello from the subflow of the flow #1'
+  - echo 234
 
