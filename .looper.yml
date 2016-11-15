@@ -8,3 +8,5 @@ flows:
   flow01:
   - sleep 3
 
+  broken01:
+  - exit 1
