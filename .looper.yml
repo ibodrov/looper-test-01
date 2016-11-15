@@ -3,7 +3,7 @@ language: workflow
 flows:
   master:
   - echo 123
-  - call flow01
+  - call: flow01
 
   flow01:
   - echo 234
